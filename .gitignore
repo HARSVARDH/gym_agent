@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+venv/
+.env.*
+myvenv/
+# Chroma / vector DB
+memory_db/
+
+# VSCode / IDE
+.vscode/
+.idea/

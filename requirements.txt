@@ -1,0 +1,27 @@
+# LLM + LangChain ecosystem (v1+)
+langchain>=1.0.0
+langchain-openai
+langgraph>=0.0.40
+langchain-community
+langchain-chroma 
+
+# Vector store for long-term memory
+chromadb>=0.5.0
+
+# API server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Data handling
+pydantic>=2.6.0
+
+# (Optional but recommended) token counting & utils
+tiktoken>=0.6.0
+
+# If you plan to add Google Calendar later
+google-api-python-client>=2.125.0
+google-auth>=2.29.0
+google-auth-oauthlib>=1.2.0
