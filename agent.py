@@ -1,6 +1,6 @@
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
-from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_agent
 from dotenv import load_dotenv
 load_dotenv()
 import os
@@ -36,7 +36,7 @@ Rules:
 - Explain reasoning clearly
 """
 
-agent = create_react_agent(
+agent = create_agent(
     model=llm,
     tools=tools,
 )
